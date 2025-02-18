@@ -14,5 +14,9 @@
             
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Button Text="Go Back"
+             Command="{Binding GoBackCommand}"   
+                />
     </VerticalStackLayout>
 </ContentPage>
